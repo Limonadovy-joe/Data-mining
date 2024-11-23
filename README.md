@@ -30,6 +30,18 @@
 - ERP systems usually store their data in **relational databases, which makes the data quickly accessible, but these systems are more focused on transactional tasks.**  These are good primarily for **processing and updating data**, and possibly also for creating documents, but they only provide us with access to individual detailed data.
   - However, when solving business analyses, we need to evaluate the monitored business indicators and then analyze them from various perspectives
   - For this, we use BI, which, **as a purely analytical tool, does not create any new data, but draws(cerpa) on data created by transactional applications** and transforms it according to its needs.
+- **Main BI components**:
+  - Production (source) databases – described above, and the problems associated with them
+  - **ETL (Extract, Transform and Load)**
+  - Temporary data store (DSA)
+  - Operational data store (ODS)
+  - **Data warehouse (DWH)**
+  - **Data mart (DMA)**
+  - **OLAP databases**
+  - Reporting
+  - Analytical applications
+  - Data mining
+
 
 ## KDD process
 - a
